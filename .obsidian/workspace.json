@@ -11,14 +11,10 @@
             "id": "f5dec2d9633d6791",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Temp - Juego Gerencial.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Temp - Juego Gerencial"
+              "title": "New tab"
             }
           }
         ]
@@ -174,7 +170,7 @@
       "sidebar-highlights:Open highlights": false
     }
   },
-  "active": "f5dec2d9633d6791",
+  "active": "e17fa39a59125e6e",
   "lastOpenFiles": [
     "notes/Codex CLI - Working Directory and Scope.md",
     "notes/Citadela ongoing checklist.md",
