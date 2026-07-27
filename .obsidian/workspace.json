@@ -11,10 +11,12 @@
             "id": "f5dec2d9633d6791",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "templates/3-excalidraw.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "3-excalidraw.excalidraw"
             }
           }
         ]
@@ -170,8 +172,11 @@
       "sidebar-highlights:Open highlights": false
     }
   },
-  "active": "e17fa39a59125e6e",
+  "active": "f5dec2d9633d6791",
   "lastOpenFiles": [
+    "templates/2-todo-template.md",
+    "templates/1-composer-template.md",
+    "notes/Temp - Juego Gerencial.md",
     "notes/Codex CLI - Working Directory and Scope.md",
     "notes/Citadela ongoing checklist.md",
     "notes/¿Sobre mi mente.md",
@@ -196,9 +201,6 @@
     "todo/Mon 27 Apr - Sun 3 Mar, 2026.md",
     "notes/Israel.md",
     "skills-lock.json",
-    "notes/Mesías.md",
-    "todo/2026.04.27.md",
-    "excalidraw/Drawing 2026-04-14 22.00.41.excalidraw.md",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
     "excalidraw",
