@@ -11,10 +11,14 @@
             "id": "f5dec2d9633d6791",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/¿Sobre mi mente.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "¿Sobre mi mente"
             }
           }
         ]
@@ -116,26 +120,6 @@
             }
           },
           {
-            "id": "e9510cc56efa98c2",
-            "type": "leaf",
-            "state": {
-              "type": "opencode-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "opencode-view"
-            }
-          },
-          {
-            "id": "7bbf8812ae499729",
-            "type": "leaf",
-            "state": {
-              "type": "highlights-sidebar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "highlights-sidebar"
-            }
-          },
-          {
             "id": "2da160bda53b4713",
             "type": "leaf",
             "state": {
@@ -192,6 +176,9 @@
   },
   "active": "f5dec2d9633d6791",
   "lastOpenFiles": [
+    "notes/Citadela ongoing checklist.md",
+    "notes/Codex CLI - Working Directory and Scope.md",
+    "notes/¿Sobre mi mente.md",
     "notes/Codex CLI - MCP Plugins and Skills.md",
     "notes/Juego Gerencial - Apuntes para reunión con Darío.md",
     "notes/Codex CLI Fundamentals.md",
@@ -205,7 +192,6 @@
     "notes/Codex CLI - Configuration.md",
     "notes/Codex CLI - AGENTS.md Instructions.md",
     "notes/Codex CLI - Sandbox and Approvals.md",
-    "notes/Codex CLI - Working Directory and Scope.md",
     "notes/Codex CLI - Main Commands.md",
     "notes/Codex CLI - Core Modes.md",
     "notes/Codex CLI - Installation and Login.md",
@@ -217,8 +203,6 @@
     "notes/Mesías.md",
     "todo/2026.04.27.md",
     "excalidraw/Drawing 2026-04-14 22.00.41.excalidraw.md",
-    "notes/Temp - Juego Gerencial.md",
-    "excalidraw/Drawing 2026-04-20 11.19.49.excalidraw.md",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
     "excalidraw",
