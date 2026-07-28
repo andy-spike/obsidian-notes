@@ -7,14 +7,6 @@
       "key": "I"
     }
   ],
-  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "F"
-    }
-  ],
   "quickadd:choice:7918c5b8-0510-4ec0-adda-9c3c86ba0a18": [
     {
       "modifiers": [
@@ -46,14 +38,6 @@
         "Alt"
       ],
       "key": "M"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
     }
   ],
   "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
@@ -106,6 +90,24 @@
         "Mod"
       ],
       "key": "M"
+    }
+  ],
+  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
     }
   ]
 }
