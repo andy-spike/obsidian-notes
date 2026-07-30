@@ -18,8 +18,23 @@
               "icon": "excalidraw-icon",
               "title": "3-excalidraw.excalidraw"
             }
+          },
+          {
+            "id": "4aec4abdbc943d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Padre Nuestro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Padre Nuestro"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,9 +184,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f5dec2d9633d6791",
+  "active": "4aec4abdbc943d7c",
   "lastOpenFiles": [
     "templates/3-excalidraw.excalidraw.md",
+    "notes/Padre Nuestro.md",
     "templates/2-todo-template.md",
     "templates/1-composer-template.md",
     "notes/Temp - Juego Gerencial.md",
@@ -196,7 +212,6 @@
     "notes/Codex CLI - Installation and Login.md",
     "notes/Codex CLI - What It Is For.md",
     "templates/0-default.md",
-    "todo/Mon 27 Apr - Sun 3 Mar, 2026.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
