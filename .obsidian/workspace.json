@@ -32,9 +32,21 @@
               "icon": "lucide-file",
               "title": "Padre Nuestro"
             }
+          },
+          {
+            "id": "306ea90d2a3c499f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Padre Nuestro 2026-08-10 10.50.57.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,10 +196,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4aec4abdbc943d7c",
+  "active": "306ea90d2a3c499f",
   "lastOpenFiles": [
-    "templates/3-excalidraw.excalidraw.md",
     "notes/Padre Nuestro.md",
+    "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
+    "templates/3-excalidraw.excalidraw.md",
     "templates/2-todo-template.md",
     "templates/1-composer-template.md",
     "notes/Temp - Juego Gerencial.md",
@@ -211,7 +224,6 @@
     "notes/Codex CLI - Core Modes.md",
     "notes/Codex CLI - Installation and Login.md",
     "notes/Codex CLI - What It Is For.md",
-    "templates/0-default.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
