@@ -1,4 +1,4 @@
-# Repository Guide
+k# Repository Guide
 
 This repository is an Obsidian-style personal notes vault, not a software
 application. Treat it primarily as a collection of Markdown notes, templates,

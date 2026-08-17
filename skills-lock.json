@@ -17,7 +17,7 @@
       "source": "kepano/obsidian-skills",
       "sourceType": "github",
       "skillPath": "skills/obsidian-bases/SKILL.md",
-      "computedHash": "ed0a53502693e56c67575a9958daca9a3a1ac7ba483367f400b4cad9488bfb3c"
+      "computedHash": "65db029661f38daadc8b8eb755bd7b96011336f49bdc11e966ec7fd157d8f125"
     },
     "obsidian-cli": {
       "source": "kepano/obsidian-skills",
@@ -29,7 +29,7 @@
       "source": "kepano/obsidian-skills",
       "sourceType": "github",
       "skillPath": "skills/obsidian-markdown/SKILL.md",
-      "computedHash": "cacc9058a35ad3fd4985b4c31121bff8202f1337c39808c1326ded6a19a7915f"
+      "computedHash": "0f47297035d7824e7bf0f1984e8145a59a123e2258b5d54c9ac9642f9f77e177"
     }
   }
 }
