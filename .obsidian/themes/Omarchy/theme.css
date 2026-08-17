@@ -1,48 +1,99 @@
-/*
-Flexoki
-MIT License
-Copyright (c) 2023 Steph Ango
-https://stephango.com/flexoki
+/* Omarchy Theme for Obsidian */
 
-Omarchy Flexoki Dark: dark palette forced on both Obsidian
-appearance modes so the theme does not follow system/app light mode.
-Source values from kepano/flexoki-obsidian .theme-dark.
-*/
 .theme-dark, .theme-light {
-  --color-red-rgb: 209, 77, 65;
-  --color-orange-rgb: 218, 112, 44;
-  --color-yellow-rgb: 208, 162, 21;
-  --color-green-rgb: 135, 154, 57;
-  --color-cyan-rgb: 58, 169, 159;
-  --color-blue-rgb: 67, 133, 190;
-  --color-purple-rgb: 139, 126, 200;
-  --color-pink-rgb: 206, 93, 151;
+  /* Core colors */
+  --background-primary: #272822;
+  --background-primary-alt: #272822;
+  --background-secondary: #272822;
+  --background-secondary-alt: #272822;
+  --text-normal: #fdfff1;
 
-  --color-red: #D14D41;
-  --color-orange: #DA702C;
-  --color-yellow: #D0A215;
-  --color-green: #879A39;
-  --color-cyan: #3AA99F;
-  --color-blue: #4385BE;
-  --color-purple: #8B7EC8;
-  --color-pink: #CE5D97;
+  /* Selection colors */
+  --text-selection: #49483e;
 
-  --accent-h: 175;
-  --accent-s: 57%;
-  --accent-l: 33%;
+  /* Border color */
+  --background-modifier-border: #6e7066;
 
-  --color-base-00: #100F0F;
-  --color-base-05: #100F0F;
-  --color-base-10: #1C1B1A;
-  --color-base-20: #1C1B1A;
-  --color-base-25: #282726;
+  /* Semantic heading colors */
+  --text-title-h1: #f92672;
+  --text-title-h2: #a6e22e;
+  --text-title-h3: #e6db74;
+  --text-title-h4: #66d9ef;
+  --text-title-h5: #ae81ff;
+  --text-title-h6: #ae81ff;
 
-  --color-base-30: #282726;
-  --color-base-35: #343331;
-  --color-base-40: #403E3C;
+  /* Links and accents */
+  --text-link: #66d9ef;
+  --text-accent: #f92672;
+  --text-accent-hover: #f92672;
+  --interactive-accent: #f92672;
+  --interactive-accent-hover: #f92672;
 
-  --color-base-50: #575653;
-  --color-base-60: #6F6E69;
-  --color-base-70: #878580;
-  --color-base-100: #CECDC3;
+  /* Muted text */
+  --text-muted: color-mix(in srgb, #fdfff1 70%, transparent);
+  --text-faint: color-mix(in srgb, #fdfff1 55%, transparent);
+
+  /* Code */
+  --code-normal: #66d9ef;
+
+  /* Errors and success */
+  --text-error: #f92672;
+  --text-error-hover: #f92672;
+  --text-success: #a6e22e;
+
+  /* Tags */
+  --tag-color: #66d9ef;
+  --tag-background: #6e7066;
+
+  /* Graph */
+  --graph-line: #6e7066;
+  --graph-node: #f92672;
+  --graph-node-focused: #66d9ef;
+  --graph-node-tag: #66d9ef;
+  --graph-node-attachment: #a6e22e;
+}
+
+/* Headers */
+.cm-header-1, .markdown-rendered h1 { color: var(--text-title-h1); }
+.cm-header-2, .markdown-rendered h2 { color: var(--text-title-h2); }
+.cm-header-3, .markdown-rendered h3 { color: var(--text-title-h3); }
+.cm-header-4, .markdown-rendered h4 { color: var(--text-title-h4); }
+.cm-header-5, .markdown-rendered h5 { color: var(--text-title-h5); }
+.cm-header-6, .markdown-rendered h6 { color: var(--text-title-h6); }
+
+/* Code blocks */
+.markdown-rendered code {
+  color: #66d9ef;
+}
+
+/* Syntax highlighting */
+.cm-s-obsidian span.cm-keyword { color: #f92672; }
+.cm-s-obsidian span.cm-string { color: #a6e22e; }
+.cm-s-obsidian span.cm-number { color: #e6db74; }
+.cm-s-obsidian span.cm-comment { color: #6e7066; }
+.cm-s-obsidian span.cm-operator { color: #66d9ef; }
+.cm-s-obsidian span.cm-def { color: #66d9ef; }
+
+/* Links */
+.markdown-rendered a {
+  color: var(--text-link);
+}
+
+/* Blockquotes */
+.markdown-rendered blockquote {
+  border-left-color: #f92672;
+}
+
+/* Active elements */
+.workspace-leaf.mod-active .workspace-leaf-header-title {
+  color: var(--interactive-accent);
+}
+
+.nav-file-title.is-active {
+  color: var(--interactive-accent);
+}
+
+/* Search results */
+.search-result-file-title {
+  color: var(--interactive-accent);
 }
