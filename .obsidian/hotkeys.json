@@ -1,12 +1,4 @@
 {
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "I"
-    }
-  ],
   "quickadd:choice:7918c5b8-0510-4ec0-adda-9c3c86ba0a18": [
     {
       "modifiers": [
@@ -65,24 +57,6 @@
       "key": "O"
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "theme:toggle-light-dark": [
     {
       "modifiers": [
@@ -108,6 +82,34 @@
         "Mod"
       ],
       "key": "B"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
     }
   ]
 }
