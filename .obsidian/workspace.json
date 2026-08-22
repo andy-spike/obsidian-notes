@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "fantasmas"
             }
+          },
+          {
+            "id": "226e34457adc9b7f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-21 22.13.24.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -187,9 +200,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "88267a3d832d5e65",
+  "active": "226e34457adc9b7f",
   "lastOpenFiles": [
     "notes/fantasmas.md",
+    "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md",
     "AGENTS.md",
     "templates/3-excalidraw.excalidraw.md",
     "notes/Padre Nuestro.md",
@@ -214,7 +228,6 @@
     "notes/Codex CLI - Sandbox and Approvals.md",
     "notes/Codex CLI - Main Commands.md",
     "notes/Codex CLI - Core Modes.md",
-    "notes/Codex CLI - Installation and Login.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
