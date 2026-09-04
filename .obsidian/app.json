@@ -15,5 +15,5 @@
     "downscalePercent": 100
   },
   "tabSize": 2,
-  "vimMode": true
+  "vimMode": false
 }
