@@ -30,14 +30,12 @@ de tus miradas mezquinas!
 Te veo, te veo y te veo,
 katrina mía,
 mi mirada filosa
-corta las costuras
-de tus 
-
-
-y me boto de cabeza
+corta las comisuras
+de tus labios.
+Y me boto de cabeza
 por el abismo
 de las cavidades negras
-de tus ojos.
+que osas llamar ojos.
 
 No, no y no.
 Presume, presume todo,
@@ -59,7 +57,7 @@ ya son suficientes.
 No más,
 no habrá más cartas,
 tacharé todos los versos,
-destrozaré tus regalos.
+destrozaré tus pinturas.
 ¡Ya no más!
 No más palabras.
-
+La catrina se quedará sin alguien que le escriba.

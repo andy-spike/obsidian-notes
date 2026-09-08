@@ -72,9 +72,23 @@
               "icon": "lucide-file",
               "title": "La catrina no tiene quien le escriba"
             }
+          },
+          {
+            "id": "840911dc4bc5a53d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/La catrina no tiene quien le escriba.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "La catrina no tiene quien le escriba"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -226,10 +240,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4a68cd7d84ee9523",
+  "active": "840911dc4bc5a53d",
   "lastOpenFiles": [
-    "excalidraw/Drawing 2026-08-23 22.58.37.excalidraw.md",
+    "notes/Acaríciame las cicatries.md",
     "notes/La catrina no tiene quien le escriba.md",
+    "excalidraw/Drawing 2026-08-23 22.58.37.excalidraw.md",
     "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md",
     "notes/fantasmas.md",
     "AGENTS.md",
@@ -253,7 +268,6 @@
     "notes/Codex CLI - Models and Web Search.md",
     "notes/Codex CLI - Configuration.md",
     "notes/Codex CLI - AGENTS.md Instructions.md",
-    "notes/Codex CLI - Sandbox and Approvals.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
