@@ -86,9 +86,23 @@
               "icon": "lucide-file",
               "title": "La catrina no tiene quien le escriba"
             }
+          },
+          {
+            "id": "6b185d7ccc88f354",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Déjame morir en paz.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Déjame morir en paz"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -130,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -239,10 +254,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "840911dc4bc5a53d",
+  "active": "6b185d7ccc88f354",
   "lastOpenFiles": [
-    "notes/Acaríciame las cicatries.md",
     "notes/La catrina no tiene quien le escriba.md",
+    "notes/Déjame morir en paz.md",
+    "notes/Acaríciame las cicatries.md",
     "excalidraw/Drawing 2026-08-23 22.58.37.excalidraw.md",
     "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md",
     "notes/fantasmas.md",
@@ -266,7 +282,6 @@
     "notes/Codex CLI - Daily Workflow.md",
     "notes/Codex CLI - Models and Web Search.md",
     "notes/Codex CLI - Configuration.md",
-    "notes/Codex CLI - AGENTS.md Instructions.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
