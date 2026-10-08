@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e23aece49ba572c",
+        "id": "0160a3989d1745c6",
         "type": "tabs",
         "children": [
           {
-            "id": "4461fc25681f365f",
+            "id": "6591a5fd49ad3871",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md"
+                "file": "notes/Tuviste dos horas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-07 20.27.34.excalidraw"
+              "icon": "lucide-file",
+              "title": "Tuviste dos horas"
             }
           }
         ]
@@ -170,10 +172,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4461fc25681f365f",
+  "active": "6591a5fd49ad3871",
   "lastOpenFiles": [
-    "notes/Entrevista Bia Energy - Uno a uno.md",
+    "notes/Tuviste dos horas.md",
     "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
+    "notes/Entrevista Bia Energy - Uno a uno.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
     "AGENTS.md",
@@ -202,7 +205,6 @@
     "notes/Juego Gerencial - Apuntes para reunión con Darío.md",
     "notes/Codex CLI Fundamentals.md",
     "notes/Codex CLI - Safety and Troubleshooting.md",
-    "notes/Codex CLI - Automation.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
