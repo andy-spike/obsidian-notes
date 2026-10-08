@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6d34e4c707d9a91",
+            "id": "4461fc25681f365f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "notes/Entrevista Bia Energy - Uno a uno.md",
-                "mode": "source",
-                "source": false
+                "file": "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Entrevista Bia Energy - Uno a uno"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-07 20.27.34.excalidraw"
             }
           }
         ]
@@ -63,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -173,14 +170,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b6d34e4c707d9a91",
+  "active": "4461fc25681f365f",
   "lastOpenFiles": [
+    "notes/Entrevista Bia Energy - Uno a uno.md",
+    "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
     "AGENTS.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.27af3e1833ae",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.1ee9a89e8ce2",
-    "notes/Entrevista Bia Energy - Uno a uno.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.33736d023114",
     "notes/fantasmas.md",
     "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md",
@@ -212,7 +210,6 @@
     "assets",
     "templates",
     "notes",
-    "todo",
     "assets/Pasted Image 20250616194523_052.svg",
     "assets/Pasted Image 20260221135005_037.png",
     "assets/Pasted Image 20260221133857_838.png",
