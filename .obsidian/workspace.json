@@ -11,10 +11,12 @@
             "id": "3bd8f7154c5ca731",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "assets/AI Engineering_ Building Applications With Foundation Models -- Chip Huyen -- 2024 -- O'Reilly Media, Incorporated -- isbn13 9781098166304 -- c6c21e259c4db62add4ea4a4f497d612 -- Anna’s Archive.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AI Engineering_ Building Applications With Foundation Models -- Chip Huyen -- 2024 -- O'Reilly Media, Incorporated -- isbn13 9781098166304 -- c6c21e259c4db62add4ea4a4f497d612 -- Anna’s Archive"
             }
           }
         ]
