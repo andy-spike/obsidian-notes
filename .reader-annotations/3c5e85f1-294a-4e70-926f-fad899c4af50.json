@@ -3,7 +3,38 @@
   "documentId": "3c5e85f1-294a-4e70-926f-fad899c4af50",
   "sourcePath": "assets/AI Engineering book.pdf",
   "fingerprint": "1a6a0ff14aa4bafb2abf6af80b917d4f6ad43d9690564e1b687c7faf46f08b81",
-  "annotations": [],
+  "annotations": [
+    {
+      "page": 10,
+      "quote": {
+        "exact": "The views expressed in this work are those of the author and do\nnot represent the publisher’s views.",
+        "prefix": "",
+        "suffix": " While the publisher andthe author have used goo"
+      },
+      "position": {
+        "start": 0,
+        "end": 99
+      },
+      "rects": [
+        {
+          "x": 0.12579477406454137,
+          "y": 0.09773370020601795,
+          "width": 0.7473595818810901,
+          "height": 0.021460905914102837
+        },
+        {
+          "x": 0.12579477406454137,
+          "y": 0.1308395118934126,
+          "width": 0.419716350918322,
+          "height": 0.02146090591410285
+        }
+      ],
+      "id": "0e833931-9d8a-4121-aae1-96ca021580b5",
+      "color": "blue",
+      "comment": "",
+      "createdAt": "2026-10-16T03:14:23.960Z"
+    }
+  ],
   "exportRetired": true,
   "notePath": "Book notes/AI Engineering book notes.md"
 }

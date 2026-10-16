@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "63bf8b5ae33b8f4c",
+        "id": "8a67855521eba4ed",
         "type": "tabs",
         "children": [
           {
-            "id": "e5cbbc6d5586ef0b",
+            "id": "e8a95b2a8e5d7282",
             "type": "leaf",
             "state": {
               "type": "reader-plugin-pdf",
               "state": {
                 "file": "assets/AI Engineering book.pdf",
-                "zoom": 0.6096420333888513,
-                "page": 50,
-                "offset": 0.384
+                "zoom": 0.7060144808788137,
+                "page": 9,
+                "offset": 0.935
               },
               "icon": "book-open",
               "title": "AI Engineering book"
@@ -64,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -137,7 +138,22 @@
             }
           },
           {
-            "id": "5e2d22a6c32c732f",
+            "id": "407185a48f2d0200",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "assets/AI Engineering book.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "09e4e5e797a55102",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,11 +167,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 438.23333740234375
+    "width": 457.6639404296875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,10 +187,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e5cbbc6d5586ef0b",
+  "active": "e8a95b2a8e5d7282",
   "lastOpenFiles": [
-    "Book notes/AI Engineering book notes.md",
     "assets/AI Engineering book.pdf",
+    "Book notes/AI Engineering book notes.md",
+    "notes/The views expressed in this work are those of the author and do not represent the publisher’s views..md",
     "notes/test.md",
     "Book notes",
     "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
@@ -204,7 +221,6 @@
     "notes/Codex CLI - Working Directory and Scope.md",
     "notes/Citadela ongoing checklist.md",
     "notes/¿Sobre mi mente.md",
-    "notes/Codex CLI - MCP Plugins and Skills.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
