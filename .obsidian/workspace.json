@@ -14,15 +14,28 @@
               "type": "reader-plugin-pdf",
               "state": {
                 "file": "assets/AI Engineering book.pdf",
-                "zoom": 0.7060144808788137,
-                "page": 9,
-                "offset": 0.935
+                "zoom": 0.8698226421954228,
+                "page": 1,
+                "offset": 0
               },
               "icon": "book-open",
               "title": "AI Engineering book"
             }
+          },
+          {
+            "id": "d8a38b3043cf8ff0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-16 10.46.59.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/AI Engineering book.pdf",
+                "file": "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.6639404296875
+    "width": 592.7081909179688
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,10 +200,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e8a95b2a8e5d7282",
+  "active": "d8a38b3043cf8ff0",
   "lastOpenFiles": [
-    "assets/AI Engineering book.pdf",
     "Book notes/AI Engineering book notes.md",
+    "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
+    "assets/AI Engineering book.pdf",
     "notes/The views expressed in this work are those of the author and do not represent the publisher’s views..md",
     "notes/test.md",
     "Book notes",
@@ -220,7 +234,6 @@
     "notes/Temp - Juego Gerencial.md",
     "notes/Codex CLI - Working Directory and Scope.md",
     "notes/Citadela ongoing checklist.md",
-    "notes/¿Sobre mi mente.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
