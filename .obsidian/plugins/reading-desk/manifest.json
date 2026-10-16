@@ -1,0 +1,9 @@
+{
+  "id": "reading-desk",
+  "name": "Reading Desk",
+  "version": "0.1.4",
+  "minAppVersion": "1.14.4",
+  "description": "Read PDFs, highlight passages, and keep linked Markdown book notes in your vault.",
+  "author": "Andy Spike",
+  "isDesktopOnly": true
+}

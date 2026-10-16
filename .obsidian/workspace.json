@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a34fb32e461fdf06",
+        "id": "63bf8b5ae33b8f4c",
         "type": "tabs",
         "children": [
           {
-            "id": "3bd8f7154c5ca731",
+            "id": "e5cbbc6d5586ef0b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "reader-plugin-pdf",
               "state": {
-                "file": "assets/AI Engineering_ Building Applications With Foundation Models -- Chip Huyen -- 2024 -- O'Reilly Media, Incorporated -- isbn13 9781098166304 -- c6c21e259c4db62add4ea4a4f497d612 -- Anna’s Archive.pdf"
+                "file": "assets/AI Engineering book.pdf",
+                "zoom": 0.6096420333888513,
+                "page": 50,
+                "offset": 0.384
               },
-              "icon": "lucide-file-text",
-              "title": "AI Engineering_ Building Applications With Foundation Models -- Chip Huyen -- 2024 -- O'Reilly Media, Incorporated -- isbn13 9781098166304 -- c6c21e259c4db62add4ea4a4f497d612 -- Anna’s Archive"
+              "icon": "book-open",
+              "title": "AI Engineering book"
             }
           }
         ]
@@ -134,27 +137,25 @@
             }
           },
           {
-            "id": "dbd43a82be0eae7f",
+            "id": "5e2d22a6c32c732f",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "notes/Untitled.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Book notes/AI Engineering book notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "icon": "lucide-file",
+              "title": "AI Engineering book notes"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 477.5,
-    "collapsed": true
+    "width": 438.23333740234375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,9 +171,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3bd8f7154c5ca731",
+  "active": "e5cbbc6d5586ef0b",
   "lastOpenFiles": [
-    "assets/AI Engineering_ Building Applications With Foundation Models -- Chip Huyen -- 2024 -- O'Reilly Media, Incorporated -- isbn13 9781098166304 -- c6c21e259c4db62add4ea4a4f497d612 -- Anna’s Archive.pdf",
+    "Book notes/AI Engineering book notes.md",
+    "assets/AI Engineering book.pdf",
+    "notes/test.md",
+    "Book notes",
     "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
     "notes/Tuviste dos horas.md",
     "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
@@ -201,15 +205,11 @@
     "notes/Citadela ongoing checklist.md",
     "notes/¿Sobre mi mente.md",
     "notes/Codex CLI - MCP Plugins and Skills.md",
-    "notes/Juego Gerencial - Apuntes para reunión con Darío.md",
-    "notes/Codex CLI Fundamentals.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
     "excalidraw",
     "assets",
-    "templates",
-    "notes",
     "assets/Pasted Image 20250616194523_052.svg",
     "assets/Pasted Image 20260221135005_037.png",
     "assets/Pasted Image 20260221133857_838.png",

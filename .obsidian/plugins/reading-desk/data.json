@@ -1,0 +1,29 @@
+{
+  "colors": [
+    {
+      "id": "yellow",
+      "name": "Primary",
+      "value": "#f5d94d"
+    },
+    {
+      "id": "blue",
+      "name": "Secondary",
+      "value": "#72a9ea"
+    }
+  ],
+  "folder": ".reader-annotations",
+  "notesFolder": "Book notes",
+  "noteTemplate": "",
+  "highlightMode": false,
+  "showAnnotationsOnOpen": true,
+  "notePlace": "sidebar",
+  "keepWritingOfDeletedHighlights": false,
+  "highlightModeColor": "yellow",
+  "positions": {
+    "assets/AI Engineering book.pdf": {
+      "page": 50,
+      "offset": 0.384,
+      "zoom": 0.6096420333888513
+    }
+  }
+}

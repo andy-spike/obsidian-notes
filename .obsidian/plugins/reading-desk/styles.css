@@ -1,0 +1,125 @@
+/* ---- Reader layout ---- */
+.workspace-leaf-content .view-content.reader-view { position: relative; display: flex; flex-direction: column; padding: 0; overflow: hidden; }
+.reader-stage { position: relative; flex: 1; min-height: 0; overflow: auto; outline: none; background: var(--background-secondary); scrollbar-gutter: stable; }
+/* While a PDF opens, pages and controls wait until the pages in view are drawn, then appear together. */
+.reader-pages, .reader-controls { transition: opacity 120ms ease-out; }
+.reader-view.is-opening .reader-pages, .reader-view.is-opening .reader-controls { opacity: 0; transition: none; }
+/* A PDF opened from the file list starts in Obsidian's viewer and moves to Reader right away; its page isn't shown meanwhile.
+   Tabs deliberately opened in Obsidian's viewer are marked and show normally. */
+.workspace-leaf-content[data-type="pdf"]:not(.reader-native-pdf) > .view-content { visibility: hidden; }
+.reader-pages { position: relative; display: flex; flex-direction: column; align-items: center; gap: 16px; box-sizing: border-box; width: max-content; min-width: 100%; padding: 24px 24px 96px; }
+.reader-page { position: relative; flex: none; background: #ffffff; box-shadow: 0 0 0 1px rgb(0 0 0 / 0.06), 0 2px 10px rgb(0 0 0 / 0.1); contain: layout paint; }
+.reader-page > canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: 0; }
+.reader-page-error { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #6b6b6b; font-size: var(--font-ui-small); }
+.reader-message { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 32px; text-align: center; color: var(--text-muted); }
+.reader-message.mod-error { color: var(--text-error); }
+.reader-hint { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 5; max-width: calc(100% - 48px); padding: 6px 12px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); background: var(--background-primary); box-shadow: var(--shadow-s); color: var(--text-muted); font-size: var(--font-ui-small); }
+
+/* ---- Floating page and zoom controls ---- */
+.reader-controls { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 5; display: flex; align-items: center; gap: 2px; padding: 4px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-l); background: var(--background-primary); box-shadow: var(--shadow-s); white-space: nowrap; }
+/* Short messages sit just above the page and zoom bar, on the same center line. */
+.reader-toast { position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: var(--size-4-2); max-width: calc(100% - 48px); padding: 6px 12px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); background: var(--background-primary); box-shadow: var(--shadow-s); color: var(--text-normal); font-size: var(--font-ui-small); white-space: nowrap; animation: reader-toast-in 150ms ease-out; }
+@keyframes reader-toast-in { from { opacity: 0; transform: translate(-50%, 4px); } }
+/* Highlight mode's header button stays lit in the mode's color while the mode is on. */
+.view-action.reader-mode-action.is-active { color: var(--reader-mode-color, var(--interactive-accent)); background: var(--background-modifier-hover); }
+.reader-controls-divider { width: 1px; height: 18px; margin: 0 6px; background: var(--background-modifier-border); }
+.reader-view button.reader-icon-button { height: auto; padding: var(--size-2-2); background: transparent; box-shadow: none; }
+.reader-view button.reader-icon-button:disabled { opacity: 0.35; cursor: default; background: transparent; }
+.reader-controls .reader-page-input { height: 26px; padding: 0 4px; text-align: center; font-size: var(--font-ui-small); font-variant-numeric: tabular-nums; }
+.reader-page-total { padding: 0 4px 0 6px; color: var(--text-muted); font-size: var(--font-ui-small); font-variant-numeric: tabular-nums; }
+.reader-controls button.reader-zoom-level { height: 26px; min-width: 52px; padding: 0 6px; background: transparent; box-shadow: none; color: var(--text-normal); font-size: var(--font-ui-small); font-variant-numeric: tabular-nums; }
+.reader-controls button.reader-zoom-level:hover { background: var(--background-modifier-hover); }
+
+/* ---- Highlights ---- */
+.reader-highlight-layer { position: absolute; inset: 0; z-index: 1; pointer-events: none; mix-blend-mode: multiply; }
+.reader-mark { position: absolute; border-radius: 2px; background: color-mix(in srgb, var(--reader-color) 50%, transparent); transition: background-color 120ms ease; }
+.reader-mark.is-hovered { background: color-mix(in srgb, var(--reader-color) 80%, transparent); }
+.reader-mark.is-flashing { animation: reader-flash 1.4s ease-out; }
+@keyframes reader-flash { 0%, 40% { background: var(--reader-color); box-shadow: 0 0 0 3px var(--reader-color); } 100% { box-shadow: 0 0 0 3px transparent; } }
+/* A small dot at the end of a highlight marks that something is written about it in the book note. */
+.reader-mark-note { position: absolute; top: -3px; right: -3px; width: 7px; height: 7px; border-radius: 50%; background: color-mix(in srgb, var(--reader-color) 70%, #000000); }
+.reader-stage.is-over-highlight .textLayer :is(span, br) { cursor: pointer; }
+
+/* ---- Selection and highlight popup ---- */
+.reader-popup { position: absolute; z-index: 20; display: flex; flex-direction: column; gap: var(--size-4-2); padding: var(--size-4-2); border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); background: var(--background-primary); box-shadow: var(--shadow-l); }
+.reader-popup[hidden] { display: none; }
+.reader-popup-row { display: flex; align-items: center; gap: 2px; }
+.reader-popup-swatches { display: flex; align-items: center; gap: var(--size-4-3); padding: 0 6px; }
+.reader-popup-divider { align-self: stretch; width: 1px; margin: 4px 4px; background: var(--background-modifier-border); }
+.reader-popup .mod-warning:hover { color: var(--text-error); }
+button.reader-swatch { width: 20px; height: 20px; min-width: 20px; padding: 0; border: 0; border-radius: 50%; background: var(--reader-color); box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.15); cursor: pointer; transition: transform 100ms ease; }
+button.reader-swatch:hover { background: var(--reader-color); transform: scale(1.15); }
+button.reader-swatch[aria-pressed="true"] { box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.15), 0 0 0 2px var(--background-primary), 0 0 0 4px var(--text-muted); }
+.reader-view button.reader-text-button { display: flex; align-items: center; gap: var(--size-2-2); padding: var(--size-2-2) var(--size-4-2) var(--size-2-2) var(--size-2-3); color: var(--text-muted); font-size: var(--font-ui-small); }
+.reader-view button.reader-text-button:hover { color: var(--text-normal); }
+.reader-button-icon { display: flex; }
+.reader-visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+/* Comment fields grow with their text up to a limit, then scroll. They never show a resize handle. */
+
+/* ---- Annotations sidebar ---- */
+/* Full-width cards with a color strip, grouped under sticky page headings. Adjacent cards are divided by a hairline that also breaks the strip. */
+/* Passage quotes in book notes take their highlight's color, set per highlight by the plugin as --reader-color. */
+.callout[data-callout="quote"]:has(a[href^="obsidian://reader-plugin"]) { border-left: 3px solid var(--reader-color, rgb(var(--callout-quote))); background-color: color-mix(in srgb, var(--reader-color, transparent) 10%, transparent); mix-blend-mode: normal; }
+.callout[data-callout="quote"]:has(a[href^="obsidian://reader-plugin"]) .callout-icon { color: var(--reader-color, inherit); }
+.workspace-leaf-content .view-content.reader-annotations { --reader-inset: var(--size-4-4); padding: 0 0 var(--size-4-6); }
+.reader-annotations-title { padding: var(--size-4-3) var(--reader-inset) var(--size-4-2); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: var(--font-semibold); }
+.reader-empty { padding: 0 var(--reader-inset); color: var(--text-muted); font-size: var(--font-ui-small); line-height: 1.6; }
+/* Actions float on the card's top edge so hovering never reflows the list. They layer above the sticky page heading, which covers the first card's edge. */
+.reader-menu-swatch { display: inline-block; width: 10px; height: 10px; margin-inline-end: var(--size-4-2); border-radius: 50%; vertical-align: middle; position: relative; top: -1px; background: var(--reader-color); box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.15); }
+
+/* ---- Settings and table of contents ---- */
+.reader-color-setting .setting-item-info { display: none; }
+.reader-color-setting { position: relative; gap: var(--size-4-2); }
+.reader-color-handle { display: flex; align-items: center; justify-content: center; position: relative; flex: none; width: 24px; height: 28px; border-radius: var(--radius-s); color: var(--text-faint); cursor: grab; touch-action: none; }
+/* Obsidian gives a setting row's first child a right margin; the row gap spaces the grip instead. */
+.reader-color-setting > .reader-color-handle, .reader-color-setting > .reader-color-lock { margin: 0; }
+/* Primary and Secondary show a lock in place of the grip, and blank space where the move and remove buttons would be. */
+.reader-color-lock { display: flex; align-items: center; justify-content: center; flex: none; width: 24px; height: 28px; color: var(--text-faint); --icon-size: var(--icon-xs); }
+.reader-color-setting .extra-setting-button.reader-color-placeholder { visibility: hidden; pointer-events: none; }
+/* The grip is small, so the whole strip left of the swatch, from the row's top to its bottom, grabs it too. */
+.reader-color-handle::before { content: ""; position: absolute; inset: calc(-1 * var(--size-4-4)) calc(-1 * var(--size-4-2)) calc(-1 * var(--size-4-4)) calc(-1 * var(--size-4-4)); }
+.reader-color-handle:hover, .reader-color-handle:focus-visible { color: var(--text-muted); background: var(--background-modifier-hover); }
+.reader-color-handle:focus-visible { box-shadow: 0 0 0 2px var(--background-modifier-border-focus); outline: none; }
+.is-reordering, .is-reordering .reader-color-handle { cursor: grabbing; }
+.is-reordering .reader-color-setting:not(.is-dragging) { transition: transform 150ms ease-out; }
+.reader-color-setting.is-dragging { z-index: 1; box-shadow: var(--shadow-s); background: var(--background-primary); }
+.reader-color-setting .setting-item-control { justify-content: flex-start; }
+.reader-color-setting input[type="text"] { flex: 1; }
+/* Obsidian marks disabled extra buttons but draws them like active ones. The trash button keeps its tooltip, which says why it is disabled. */
+.reader-color-setting .extra-setting-button.is-disabled { opacity: 0.35; cursor: default; }
+.reader-color-setting .extra-setting-button.is-disabled:hover { background: transparent; }
+/* Table of contents: Obsidian's tree rows in a tall dialog, with the list scrolling under the search field. */
+/* The dialog keeps one size whatever the book or search shows, and the list scrolls inside it. Obsidian centers it in the window. */
+.reader-outline-modal { display: flex; flex-direction: column; width: min(640px, 92vw); height: min(520px, 70vh); }
+.reader-outline-modal .modal-content { display: flex; flex-direction: column; min-height: 0; flex: 1 1 auto; }
+.reader-outline-search { flex: none; margin-bottom: var(--size-4-2); }
+.reader-outline-search input { width: 100%; }
+.reader-outline-list { flex: 1 1 auto; min-height: 0; overflow-y: auto; margin: 0 calc(-1 * var(--size-4-2)); }
+.reader-outline-row { margin-bottom: 1px; align-items: center; }
+.reader-outline-row.is-top-level { font-weight: var(--font-medium); }
+.reader-outline-row.is-current .tree-item-inner { color: var(--text-accent); }
+.reader-outline-row.is-dimmed .tree-item-inner { color: var(--text-faint); }
+.reader-outline-row .tree-item-flair { font-variant-numeric: tabular-nums; }
+.reader-outline-empty { padding: var(--size-4-4); color: var(--text-muted); text-align: center; }
+
+/* ---- PDF.js text layer (matches the bundled pdf_viewer.css contract) ---- */
+.reader-page .textLayer { position: absolute; inset: 0; z-index: 2; overflow: clip; opacity: 1; text-align: initial; line-height: 1; letter-spacing: normal; word-spacing: normal; text-size-adjust: none; forced-color-adjust: none; transform-origin: 0 0; caret-color: CanvasText; color-scheme: only light; --min-font-size: 1; --text-scale-factor: calc(var(--total-scale-factor) * var(--min-font-size)); --min-font-size-inv: calc(1 / var(--min-font-size)); }
+.reader-page .textLayer :is(span, br) { position: absolute; color: transparent; white-space: pre; cursor: text; transform-origin: 0% 0%; user-select: text; }
+.reader-page .textLayer > :not(.markedContent), .reader-page .textLayer .markedContent span:not(.markedContent) { z-index: 1; --font-height: 0; --scale-x: 1; --rotate: 0deg; font-size: calc(var(--text-scale-factor) * var(--font-height)); transform: rotate(var(--rotate)) scaleX(var(--scale-x)) scale(var(--min-font-size-inv)); }
+.reader-page .textLayer .markedContent { position: static; }
+.reader-page .textLayer span[role="img"] { user-select: none; cursor: default; }
+.reader-page .textLayer ::selection { background: color-mix(in srgb, var(--interactive-accent) 32%, transparent); color: transparent; }
+.reader-page .textLayer br::selection { background: transparent; }
+/* While a swatch in the selection popup is hovered or focused, the selection shows that highlight color at the same strength as a saved highlight. */
+.reader-pages.is-previewing .textLayer ::selection { background: color-mix(in srgb, var(--reader-preview) 50%, transparent); }
+.reader-page .textLayer .endOfContent { display: block; position: absolute; inset: 100% 0 0; z-index: 0; cursor: default; user-select: none; }
+.reader-page .textLayer.selecting .endOfContent { top: 0; }
+
+/* Obsidian leaves an empty icon slot at the start of each item; the item's gap after it would double the left inset. */
+.menu.reader-check-menu .menu-item-icon:empty { display: none; }
+.menu.reader-check-menu .menu-item:not(.mod-checked)::after {
+  content: "";
+  flex: 0 0 var(--icon-size);
+}
+
+.reader-color-setting { transform: translateY(var(--reader-row-offset, 0px)); }
