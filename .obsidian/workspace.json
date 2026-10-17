@@ -8,34 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8a95b2a8e5d7282",
+            "id": "024a2bf615653129",
             "type": "leaf",
             "state": {
-              "type": "reader-plugin-pdf",
+              "type": "markdown",
               "state": {
-                "file": "assets/AI Engineering book.pdf",
-                "zoom": 0.8698226421954228,
-                "page": 1,
-                "offset": 0
+                "file": "notes/Ícaro.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "book-open",
-              "title": "AI Engineering book"
-            }
-          },
-          {
-            "id": "d8a38b3043cf8ff0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-16 10.46.59.excalidraw"
+              "icon": "lucide-file",
+              "title": "Ícaro"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
+                "file": "notes/Ícaro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 592.7081909179688
+    "width": 592.7081909179688,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,35 +187,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d8a38b3043cf8ff0",
+  "active": "024a2bf615653129",
   "lastOpenFiles": [
-    "Book notes/AI Engineering book notes.md",
-    "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
-    "assets/AI Engineering book.pdf",
+    "notes/Déjame morir en paz.md",
+    "notes/Entrevista Bia Energy - Uno a uno.md",
+    "notes/Rodando por la Séptima.md",
+    "notes/Padre Nuestro.md",
+    "notes/System Design for Beginners.md",
     "notes/The views expressed in this work are those of the author and do not represent the publisher’s views..md",
+    "notes/Tuviste dos horas.md",
+    "notes/La catrina no tiene quien le escriba.md",
+    "notes/fantasmas.md",
+    "notes/Cumple 12.md",
+    "notes/Acaríciame las cicatries.md",
+    "notes/Ícaro.md",
+    "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
+    "Book notes/AI Engineering book notes.md",
+    "assets/AI Engineering book.pdf",
     "notes/test.md",
     "Book notes",
     "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
-    "notes/Tuviste dos horas.md",
     "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
-    "notes/Entrevista Bia Energy - Uno a uno.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
     "AGENTS.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.27af3e1833ae",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.1ee9a89e8ce2",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.33736d023114",
-    "notes/fantasmas.md",
     "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md",
-    "notes/La catrina no tiene quien le escriba.md",
-    "notes/Déjame morir en paz.md",
-    "notes/System Design for Beginners.md",
-    "notes/Cumple 12.md",
-    "notes/Rodando por la Séptima.md",
-    "notes/Acaríciame las cicatries.md",
     "excalidraw/Drawing 2026-08-23 22.58.37.excalidraw.md",
     "templates/3-excalidraw.excalidraw.md",
-    "notes/Padre Nuestro.md",
     "templates/2-todo-template.md",
     "templates/1-composer-template.md",
     "notes/Temp - Juego Gerencial.md",

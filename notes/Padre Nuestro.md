@@ -1,4 +1,4 @@
-![[Padre Nuestro 2026-08-10 10.50.57.excalidraw]]Padre nuestro, que estás en el cielo,
+Padre nuestro, que estás en el cielo,
 estamos cada vez más cerca tuyo.
 Nos has dotado del don de mayor peligro,
 la Inteligencia con la I mayúscula,
