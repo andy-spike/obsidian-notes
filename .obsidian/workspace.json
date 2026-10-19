@@ -11,14 +11,15 @@
             "id": "024a2bf615653129",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "reader-plugin-pdf",
               "state": {
-                "file": "notes/Ícaro.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/AI Engineering book.pdf",
+                "zoom": 1.0477445728485029,
+                "page": 35,
+                "offset": 0.038
               },
-              "icon": "lucide-file",
-              "title": "Ícaro"
+              "icon": "book-open",
+              "title": "AI Engineering book"
             }
           }
         ]
@@ -170,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 592.7081909179688,
-    "collapsed": true
+    "width": 435.45904541015625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,6 +189,9 @@
   },
   "active": "024a2bf615653129",
   "lastOpenFiles": [
+    "Book notes/AI Engineering book notes.md",
+    "assets/AI Engineering book.pdf",
+    "notes/Ícaro.md",
     "notes/Déjame morir en paz.md",
     "notes/Entrevista Bia Energy - Uno a uno.md",
     "notes/Rodando por la Séptima.md",
@@ -200,10 +203,7 @@
     "notes/fantasmas.md",
     "notes/Cumple 12.md",
     "notes/Acaríciame las cicatries.md",
-    "notes/Ícaro.md",
     "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
-    "Book notes/AI Engineering book notes.md",
-    "assets/AI Engineering book.pdf",
     "notes/test.md",
     "Book notes",
     "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
@@ -221,7 +221,6 @@
     "templates/1-composer-template.md",
     "notes/Temp - Juego Gerencial.md",
     "notes/Codex CLI - Working Directory and Scope.md",
-    "notes/Citadela ongoing checklist.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
