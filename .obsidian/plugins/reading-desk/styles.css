@@ -8,18 +8,24 @@
    Tabs deliberately opened in Obsidian's viewer are marked and show normally. */
 .workspace-leaf-content[data-type="pdf"]:not(.reader-native-pdf) > .view-content { visibility: hidden; }
 .reader-pages { position: relative; display: flex; flex-direction: column; align-items: center; gap: 16px; box-sizing: border-box; width: max-content; min-width: 100%; padding: 24px 24px 96px; }
-.reader-page { position: relative; flex: none; background: #ffffff; box-shadow: 0 0 0 1px rgb(0 0 0 / 0.06), 0 2px 10px rgb(0 0 0 / 0.1); contain: layout paint; }
+.reader-page { --scale-round-x: 1px; --scale-round-y: 1px; position: relative; flex: none; background: #ffffff; box-shadow: 0 0 0 1px rgb(0 0 0 / 0.06), 0 2px 10px rgb(0 0 0 / 0.1); contain: layout paint; }
 .reader-page > canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: 0; }
+/* Dark pages invert the drawn page, then turn hues back so colors keep roughly their own hue. Inverting 90% gives
+   #1a1a1a paper and light grey text, which glare less than pure black and white. The empty page matches that paper. */
+.reader-view.is-dark-pages .reader-page { background: #1a1a1a; box-shadow: 0 0 0 1px rgb(255 255 255 / 0.06), 0 2px 10px rgb(0 0 0 / 0.3); }
+.reader-view.is-dark-pages .reader-page > canvas { filter: invert(0.9) hue-rotate(180deg); }
 .reader-page-error { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #6b6b6b; font-size: var(--font-ui-small); }
-.reader-message { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 32px; text-align: center; color: var(--text-muted); }
+.reader-message { position: absolute; inset: 0; display: flex; flex-direction: column; gap: var(--size-4-3); align-items: center; justify-content: center; padding: 32px; text-align: center; color: var(--text-muted); }
 .reader-message.mod-error { color: var(--text-error); }
 .reader-hint { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 5; max-width: calc(100% - 48px); padding: 6px 12px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); background: var(--background-primary); box-shadow: var(--shadow-s); color: var(--text-muted); font-size: var(--font-ui-small); }
 
 /* ---- Floating page and zoom controls ---- */
-.reader-controls { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 5; display: flex; align-items: center; gap: 2px; padding: 4px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-l); background: var(--background-primary); box-shadow: var(--shadow-s); white-space: nowrap; }
+.reader-controls { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 5; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; width: max-content; max-width: calc(100% - 16px); gap: 2px; padding: 4px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-l); background: var(--background-primary); box-shadow: var(--shadow-s); white-space: nowrap; }
 /* Short messages sit just above the page and zoom bar, on the same center line. */
 .reader-toast { position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: var(--size-4-2); max-width: calc(100% - 48px); padding: 6px 12px; border: 1px solid var(--background-modifier-border); border-radius: var(--radius-m); background: var(--background-primary); box-shadow: var(--shadow-s); color: var(--text-normal); font-size: var(--font-ui-small); white-space: nowrap; animation: reader-toast-in 150ms ease-out; }
 @keyframes reader-toast-in { from { opacity: 0; transform: translate(-50%, 4px); } }
+/* The page colors header button stays lit while dark pages show. */
+.view-action.reader-page-colors-action.is-active { color: var(--interactive-accent); background: var(--background-modifier-hover); }
 /* Highlight mode's header button stays lit in the mode's color while the mode is on. */
 .view-action.reader-mode-action.is-active { color: var(--reader-mode-color, var(--interactive-accent)); background: var(--background-modifier-hover); }
 .reader-controls-divider { width: 1px; height: 18px; margin: 0 6px; background: var(--background-modifier-border); }
@@ -32,6 +38,8 @@
 
 /* ---- Highlights ---- */
 .reader-highlight-layer { position: absolute; inset: 0; z-index: 1; pointer-events: none; mix-blend-mode: multiply; }
+/* Multiply darkens, so on dark pages highlights would vanish. Screen lightens the dark paper with the color instead. */
+.reader-view.is-dark-pages .reader-highlight-layer { mix-blend-mode: screen; }
 .reader-mark { position: absolute; border-radius: 2px; background: color-mix(in srgb, var(--reader-color) 50%, transparent); transition: background-color 120ms ease; }
 .reader-mark.is-hovered { background: color-mix(in srgb, var(--reader-color) 80%, transparent); }
 .reader-mark.is-flashing { animation: reader-flash 1.4s ease-out; }
@@ -54,10 +62,49 @@ button.reader-swatch[aria-pressed="true"] { box-shadow: inset 0 0 0 1px rgb(0 0 
 .reader-view button.reader-text-button:hover { color: var(--text-normal); }
 .reader-button-icon { display: flex; }
 .reader-visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
-/* Comment fields grow with their text up to a limit, then scroll. They never show a resize handle. */
 
-/* ---- Annotations sidebar ---- */
-/* Full-width cards with a color strip, grouped under sticky page headings. Adjacent cards are divided by a hairline that also breaks the strip. */
+/* ---- Book note cards in the sidebar ---- */
+/* A flat list of passages split by hairlines, like marginalia: the quote marked in its highlight color, the comment under a thin rule. */
+.reader-cards-header { display: flex; align-items: center; gap: var(--size-2-2); padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--reader-inset); border-bottom: 1px solid var(--background-modifier-border); }
+.reader-cards-header .reader-annotations-title { flex: 1; padding: 0; }
+.reader-annotations button.reader-icon-button { height: auto; padding: var(--size-2-2); background: transparent; box-shadow: none; color: var(--text-faint); }
+.reader-annotations button.reader-icon-button:hover { color: var(--text-normal); background: var(--background-modifier-hover); }
+.reader-annotations .reader-empty { padding-top: var(--size-4-3); }
+.reader-cards { margin: 0; padding: 0; list-style: none; }
+.reader-card { padding: var(--size-4-3) var(--reader-inset) var(--size-4-4); border-bottom: 1px solid var(--background-modifier-border); }
+.reader-card-top { display: flex; align-items: center; min-height: 24px; margin: calc(var(--size-2-2) * -1) calc(var(--size-4-2) * -1) var(--size-2-1) 0; }
+.reader-card-page { flex: 1; color: var(--text-faint); font-size: var(--font-ui-smaller); font-variant-numeric: tabular-nums; }
+/* Actions stay out of the way until the passage is hovered or one of them has keyboard focus. */
+.reader-card-actions { display: flex; opacity: 0; transition: opacity 120ms ease-out; }
+.reader-card:hover .reader-card-actions, .reader-card-actions:focus-within { opacity: 1; }
+@media (hover: none) { .reader-card-actions { opacity: 1; } }
+.reader-card-quote { margin: 0; font-family: var(--font-text); font-size: var(--font-ui-medium); line-height: 1.6; color: var(--text-normal); user-select: text; }
+.reader-card-quote { cursor: pointer; }
+.reader-card-quote:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 2px; border-radius: 2px; }
+/* The same marker as on the page, so a passage reads as the highlight it came from. It deepens to show the quote leads there. */
+.reader-card-quote mark { transition: background-color 120ms ease-out; }
+.reader-card-quote:hover mark { background: color-mix(in srgb, var(--reader-color) 45%, transparent); }
+.reader-card-quote mark { padding: 0.1em 0.15em; border-radius: 2px; background: color-mix(in srgb, var(--reader-color) 28%, transparent); color: inherit; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.reader-annotations button.reader-card-toggle,
+.reader-annotations button.reader-card-add { display: flex; align-items: center; gap: var(--size-2-1); height: auto; margin-top: var(--size-4-2); padding: 0; background: transparent; box-shadow: none; color: var(--text-faint); font-size: var(--font-ui-smaller); }
+.reader-annotations button.reader-card-toggle:hover,
+.reader-annotations button.reader-card-add:hover { color: var(--text-muted); background: transparent; }
+.reader-card-chevron { display: flex; margin-inline-start: -2px; transition: transform 120ms ease-out; }
+.reader-card-chevron svg { width: 12px; height: 12px; stroke-width: 2.5px; }
+.reader-card-toggle[aria-expanded="true"] .reader-card-chevron { transform: rotate(90deg); }
+/* A comment hangs under its quote behind a hairline rule, which turns to the accent color while it is being written. */
+.reader-card-comment,
+.reader-annotations textarea.reader-card-comment-field { margin-top: var(--size-2-3); padding: 0 0 0 var(--size-4-3); border-left: 1px solid var(--background-modifier-border-hover); font-size: var(--font-ui-small); line-height: 1.6; color: var(--text-muted); }
+.reader-card-comment { cursor: text; transition: border-color 120ms ease-out; }
+.reader-card-comment:hover { border-left-color: var(--text-faint); }
+.reader-card-comment > div > :first-child { margin-top: 0; }
+.reader-card-comment > div > :last-child { margin-bottom: 0; }
+/* Writing happens in place, without a box. Fields grow with their text and never show a resize handle. */
+.reader-annotations textarea.reader-card-comment-field { display: block; width: 100%; min-height: 0; border-top: 0; border-right: 0; border-bottom: 0; border-radius: 0; background: transparent; box-shadow: none; color: var(--text-normal); resize: none; overflow: hidden; }
+.reader-annotations textarea.reader-card-comment-field:focus,
+.reader-annotations textarea.reader-card-comment-field:focus-visible { border-left-color: var(--interactive-accent); box-shadow: none; outline: none; }
+.reader-annotations textarea.reader-card-comment-field::placeholder { color: var(--text-faint); }
+
 /* Passage quotes in book notes take their highlight's color, set per highlight by the plugin as --reader-color. */
 .callout[data-callout="quote"]:has(a[href^="obsidian://reader-plugin"]) { border-left: 3px solid var(--reader-color, rgb(var(--callout-quote))); background-color: color-mix(in srgb, var(--reader-color, transparent) 10%, transparent); mix-blend-mode: normal; }
 .callout[data-callout="quote"]:has(a[href^="obsidian://reader-plugin"]) .callout-icon { color: var(--reader-color, inherit); }
@@ -114,6 +161,27 @@ button.reader-swatch[aria-pressed="true"] { box-shadow: inset 0 0 0 1px rgb(0 0 
 .reader-pages.is-previewing .textLayer ::selection { background: color-mix(in srgb, var(--reader-preview) 50%, transparent); }
 .reader-page .textLayer .endOfContent { display: block; position: absolute; inset: 100% 0 0; z-index: 0; cursor: default; user-select: none; }
 .reader-page .textLayer.selecting .endOfContent { top: 0; }
+/* PDF.js lays text out in unrotated coordinates and tags the container with the page rotation. */
+.reader-page .textLayer[data-main-rotation="90"] { transform: rotate(90deg) translateY(-100%); }
+.reader-page .textLayer[data-main-rotation="180"] { transform: rotate(180deg) translate(-100%, -100%); }
+.reader-page .textLayer[data-main-rotation="270"] { transform: rotate(270deg) translateX(-100%); }
+
+.reader-search { order: -2; display: flex; flex-wrap: wrap; align-items: center; gap: var(--size-2-2); padding: var(--size-4-2); border-bottom: 1px solid var(--background-modifier-border); background: var(--background-primary); }
+.reader-search input { flex: 1 1 120px; min-width: 80px; }
+.reader-search-status { color: var(--text-muted); font-size: var(--font-ui-small); font-variant-numeric: tabular-nums; }
+.reader-search-marks { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+.reader-search-mark { position: absolute; background: rgb(255 170 0 / 0.4); border-radius: 2px; }
+.reader-search-mark.is-current { background: rgb(255 110 0 / 0.65); outline: 2px solid var(--text-accent); }
+.reader-compatibility { order: -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--size-4-2); padding: var(--size-4-2); border-bottom: 1px solid var(--background-modifier-border); color: var(--text-muted); font-size: var(--font-ui-small); }
+.reader-compatibility button { white-space: normal; height: auto; }
+.reader-pdf-annotations { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
+.reader-pdf-annotations button { position: absolute; pointer-events: auto; }
+.reader-pdf-annotations .reader-pdf-comment { width: 26px; height: 26px; padding: var(--size-2-2); color: var(--text-normal); background: var(--background-primary); border: 1px solid var(--background-modifier-border); border-radius: var(--radius-s); }
+.reader-pdf-annotations .reader-pdf-comment:hover { background: var(--background-modifier-hover); }
+.reader-pdf-comment-text { white-space: pre-wrap; overflow-wrap: anywhere; user-select: text; }
+.reader-pdf-annotations button.reader-pdf-form { min-width: 0; min-height: 0; padding: 0; background: transparent; box-shadow: none; border: 1px dashed var(--text-accent); border-radius: 0; cursor: pointer; }
+.reader-pdf-annotations button.reader-pdf-form:hover { background: color-mix(in srgb, var(--interactive-accent) 15%, transparent); }
+.reader-pdf-annotations button:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 2px; }
 
 /* Obsidian leaves an empty icon slot at the start of each item; the item's gap after it would double the left inset. */
 .menu.reader-check-menu .menu-item-icon:empty { display: none; }
@@ -123,3 +191,9 @@ button.reader-swatch[aria-pressed="true"] { box-shadow: inset 0 0 0 1px rgb(0 0 
 }
 
 .reader-color-setting { transform: translateY(var(--reader-row-offset, 0px)); }
+
+/* PDF link hit areas scale with the page without covering unrelated selectable text. */
+.reader-link-layer { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.reader-link-layer a { position: absolute; display: block; pointer-events: auto; cursor: pointer; }
+.reader-link-layer a:hover { background: color-mix(in srgb, var(--interactive-accent) 15%, transparent); }
+.reader-link-layer a:focus-visible { outline: 2px solid var(--interactive-accent); outline-offset: 1px; }
