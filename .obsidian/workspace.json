@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8a67855521eba4ed",
+        "id": "68ddcd039c6c4e11",
         "type": "tabs",
         "children": [
           {
-            "id": "024a2bf615653129",
+            "id": "76066bc058c9a315",
             "type": "leaf",
             "state": {
               "type": "reader-plugin-pdf",
               "state": {
                 "file": "assets/AI Engineering book.pdf",
-                "zoom": 1.0477445728485029,
-                "page": 35,
-                "offset": 0.071
+                "zoom": 0.7126551651664048,
+                "page": 36,
+                "offset": 0.009
               },
               "icon": "book-open",
               "title": "AI Engineering book"
@@ -182,10 +182,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "024a2bf615653129",
+  "active": "76066bc058c9a315",
   "lastOpenFiles": [
+    "Book notes/AI Engineering book notes/Second, training large language models (LLMs) requires data, compute resources….md",
+    "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale. The AI….md",
+    "Book notes/AI Engineering book notes",
     "Book notes/AI Engineering book notes.md",
     "assets/AI Engineering book.pdf",
+    "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale.md",
     "notes/Ícaro.md",
     "notes/Déjame morir en paz.md",
     "notes/Entrevista Bia Energy - Uno a uno.md",
@@ -214,13 +218,10 @@
     "templates/3-excalidraw.excalidraw.md",
     "templates/2-todo-template.md",
     "templates/1-composer-template.md",
-    "notes/Temp - Juego Gerencial.md",
-    "notes/Codex CLI - Working Directory and Scope.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
     "excalidraw",
-    "assets",
     "assets/Pasted Image 20250616194523_052.svg",
     "assets/Pasted Image 20260221135005_037.png",
     "assets/Pasted Image 20260221133857_838.png",

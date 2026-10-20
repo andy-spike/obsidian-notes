@@ -18,12 +18,14 @@
   "showAnnotationsOnOpen": true,
   "notePlace": "sidebar",
   "keepWritingOfDeletedHighlights": false,
+  "pageColors": "follow",
+  "pdfPageColors": {},
   "highlightModeColor": "yellow",
   "positions": {
     "assets/AI Engineering book.pdf": {
-      "page": 35,
-      "offset": 0.071,
-      "zoom": 1.0477445728485029
+      "page": 36,
+      "offset": 0.152,
+      "zoom": 0.7126551651664048
     }
   }
 }
