@@ -3,7 +3,68 @@
   "documentId": "3c5e85f1-294a-4e70-926f-fad899c4af50",
   "sourcePath": "assets/AI Engineering book.pdf",
   "fingerprint": "1a6a0ff14aa4bafb2abf6af80b917d4f6ad43d9690564e1b687c7faf46f08b81",
-  "annotations": [],
+  "annotations": [
+    {
+      "page": 38,
+      "quote": {
+        "exact": "A language model encodes statistical information about one or\nmore languages",
+        "prefix": "Language models",
+        "suffix": ". Intuitively, this information tells us how lik"
+      },
+      "position": {
+        "start": 15,
+        "end": 90
+      },
+      "rects": [
+        {
+          "x": 0.1257473604037771,
+          "y": 0.1533409226268959,
+          "width": 0.7253014717911173,
+          "height": 0.02098900522751898
+        },
+        {
+          "x": 0.1257473604037771,
+          "y": 0.18644694973837536,
+          "width": 0.1943601342526664,
+          "height": 0.02098901817948967
+        }
+      ],
+      "id": "f169154d-433a-4c22-afd4-405731dd4830",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-10-20T05:34:26.095Z"
+    },
+    {
+      "page": 44,
+      "quote": {
+        "exact": "the\nChatGPT moment",
+        "prefix": " the center of the scaling approach that caused ",
+        "suffix": "?The answer is that language models can be train"
+      },
+      "position": {
+        "start": 734,
+        "end": 751
+      },
+      "rects": [
+        {
+          "x": 0.7359104763207368,
+          "y": 0.6040014880260067,
+          "width": 0.0364369540789371,
+          "height": 0.02098899227554829
+        },
+        {
+          "x": 0.1257473604037771,
+          "y": 0.6371947078040597,
+          "width": 0.20189307389260325,
+          "height": 0.020989031131460223
+        }
+      ],
+      "id": "4bf8a161-a534-4b96-b050-2377900eab02",
+      "color": "blue",
+      "comment": "",
+      "createdAt": "2026-10-20T05:39:18.046Z"
+    }
+  ],
   "exportRetired": true,
   "notePath": "Book notes/AI Engineering book notes.md"
 }
