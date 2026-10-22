@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "68ddcd039c6c4e11",
+        "id": "a2220a0bb7bb20ca",
         "type": "tabs",
         "children": [
           {
-            "id": "76066bc058c9a315",
+            "id": "b31663459caa7e5f",
             "type": "leaf",
             "state": {
-              "type": "reader-plugin-pdf",
+              "type": "markdown",
               "state": {
-                "file": "assets/AI Engineering book.pdf",
-                "zoom": 1.115631967794256,
-                "page": 47,
-                "offset": 0.765
+                "file": "notes/Vilert, Rupit, Obi.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "book-open",
-              "title": "AI Engineering book"
+              "icon": "lucide-file",
+              "title": "Vilert, Rupit, Obi"
             }
           }
         ]
@@ -64,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.45904541015625
+    "width": 435.45904541015625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +183,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "76066bc058c9a315",
+  "active": "b31663459caa7e5f",
   "lastOpenFiles": [
+    "notes/Vilert, Rupit, Obi.md",
+    "assets/AI Engineering book.pdf",
     "Book notes/AI Engineering book notes/the ChatGPT moment.md",
     "Book notes/AI Engineering book notes/A language model encodes statistical information about one or more languages.md",
     "Book notes/AI Engineering book notes/ul and capable of more tasks, enabling more applications. More people and teams.md",
@@ -191,7 +194,6 @@
     "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale. The AI….md",
     "Book notes/AI Engineering book notes",
     "Book notes/AI Engineering book notes.md",
-    "assets/AI Engineering book.pdf",
     "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale.md",
     "notes/Ícaro.md",
     "notes/Déjame morir en paz.md",
@@ -217,7 +219,6 @@
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.1ee9a89e8ce2",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.33736d023114",
     "excalidraw/Drawing 2026-08-21 22.13.24.excalidraw.md",
-    "excalidraw/Drawing 2026-08-23 22.58.37.excalidraw.md",
     "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
