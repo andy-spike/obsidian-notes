@@ -11,14 +11,15 @@
             "id": "b31663459caa7e5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "reader-plugin-pdf",
               "state": {
-                "file": "notes/Vilert, Rupit, Obi.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/AI Engineering book.pdf",
+                "zoom": 1.1435418764462328,
+                "page": 58,
+                "offset": 0.964
               },
-              "icon": "lucide-file",
-              "title": "Vilert, Rupit, Obi"
+              "icon": "book-open",
+              "title": "AI Engineering book"
             }
           }
         ]
@@ -166,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.45904541015625,
-    "collapsed": true
+    "width": 435.45904541015625
   },
   "left-ribbon": {
     "hiddenItems": {
