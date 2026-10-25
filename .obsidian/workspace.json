@@ -15,27 +15,14 @@
               "state": {
                 "file": "assets/AI Engineering book.pdf",
                 "zoom": 1.1435418764462328,
-                "page": 65,
-                "offset": 1.007
+                "page": 69,
+                "offset": 0.951
               },
               "icon": "book-open",
               "title": "AI Engineering book"
             }
-          },
-          {
-            "id": "9d557d179c298593",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "excalidraw/Drawing 2026-10-25 13.46.15.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-25 13.46.15.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.45904541015625,
-    "collapsed": true
+    "width": 435.45904541015625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +183,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9d557d179c298593",
+  "active": "b31663459caa7e5f",
   "lastOpenFiles": [
+    "excalidraw/Drawing 2026-10-25 16.35.03.excalidraw.md",
     "assets/AI Engineering book.pdf",
     "excalidraw/Drawing 2026-10-25 13.46.15.excalidraw.md",
     "notes/Vilert, Rupit, Obi.md",
@@ -226,7 +213,6 @@
     "notes/test.md",
     "Book notes",
     "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
-    "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.27af3e1833ae",
