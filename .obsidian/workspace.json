@@ -11,14 +11,15 @@
             "id": "9db7c730692cb28a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "reader-plugin-pdf",
               "state": {
-                "file": "notes/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/Advice on Upskilling.pdf",
+                "zoom": 1.7534100306306573,
+                "page": 37,
+                "offset": 0.935
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "book-open",
+              "title": "Advice on Upskilling"
             }
           }
         ]
@@ -63,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -73,6 +75,16 @@
         "id": "bb2917cc9394a19a",
         "type": "tabs",
         "children": [
+          {
+            "id": "09e4e5e797a55102",
+            "type": "leaf",
+            "state": {
+              "type": "reader-plugin-annotations",
+              "state": {},
+              "icon": "notebook-pen",
+              "title": "Book note"
+            }
+          },
           {
             "id": "ff18fc66e3b93f60",
             "type": "leaf",
@@ -149,24 +161,12 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "09e4e5e797a55102",
-            "type": "leaf",
-            "state": {
-              "type": "reader-plugin-annotations",
-              "state": {},
-              "icon": "notebook-pen",
-              "title": "Book note"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 435.45904541015625,
-    "collapsed": true
+    "width": 367.82818603515625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +184,21 @@
   },
   "active": "9db7c730692cb28a",
   "lastOpenFiles": [
+    "Book notes/Advice on Upskilling/Hardcore skills are the biggest bottleneck to improving your life and the lives….md",
+    "Book notes/Advice on Upskilling/Hardcore skill development is also one of the greatest social mobility hacks.md",
+    "Book notes/Advice on Upskilling/If I've learned anything about habit formation and maintenance, it's that….md",
+    "Book notes/Advice on Upskilling/Unless you have a ridiculous amount of intrinsic motivation, it's just a lot of….md",
+    "Book notes/Advice on Upskilling/Once you get to that point, you’ve built a habit, and you need to do everything….md",
+    "Book notes/Advice on Upskilling/If you’re struggling to stick with demanding forms of practice, then….md",
+    "Book notes/Advice on Upskilling.md",
+    "Book notes/Advice on Upskilling/That’s the deal. That’s the kind of coach you’re picking with this book. A….md",
+    "Book notes/Advice on Upskilling",
+    "excalidraw/Drawing 2026-04-20 11.19.49.excalidraw.md",
+    "assets/Advice on Upskilling.pdf",
+    "assets/Advice on Upskilling (1).pdf",
+    "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
+    "excalidraw/Drawing 2026-04-14 22.00.41.excalidraw.md",
+    "todo/Mon 27 Apr - Sun 3 Mar, 2026.md",
     "notes/Untitled.md",
     "notes/Vilert, Rupit, Obi.md",
     "assets/AI Engineering book.pdf",
@@ -200,28 +215,13 @@
     "notes/Ícaro.md",
     "notes/Déjame morir en paz.md",
     "notes/Entrevista Bia Energy - Uno a uno.md",
-    "notes/Rodando por la Séptima.md",
-    "notes/Padre Nuestro.md",
-    "notes/System Design for Beginners.md",
-    "notes/The views expressed in this work are those of the author and do not represent the publisher’s views..md",
-    "notes/Tuviste dos horas.md",
-    "notes/La catrina no tiene quien le escriba.md",
-    "notes/fantasmas.md",
-    "notes/Cumple 12.md",
-    "notes/Acaríciame las cicatries.md",
-    "excalidraw/Drawing 2026-10-16 10.46.59.excalidraw.md",
-    "notes/test.md",
     "Book notes",
-    "assets/Padre Nuestro 2026-08-10 10.50.57.excalidraw.md",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.27af3e1833ae",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.1ee9a89e8ce2",
-    "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.33736d023114",
-    "skills-lock.json",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
-    "excalidraw",
     "assets/Pasted Image 20250616194523_052.svg",
     "assets/Pasted Image 20260221135005_037.png",
     "assets/Pasted Image 20260221133857_838.png",

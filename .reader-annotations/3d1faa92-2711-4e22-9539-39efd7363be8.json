@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "documentId": "3d1faa92-2711-4e22-9539-39efd7363be8",
+  "sourcePath": "assets/Advice on Upskilling.pdf",
+  "fingerprint": "1f12ba1b34f9bd46a041892e666d86e6456f03aa9a198fe4a65bd2fd53ac85d9",
+  "annotations": [
+    {
+      "page": 22,
+      "quote": {
+        "exact": "That’s the deal. That’s the kind of coach you’re picking\nwith this book.\nA supportive hard-ass. Not a supportive pushover. Not\nan unsupportive hard-ass.",
+        "prefix": "Advice on Upskilling – Working Draft",
+        "suffix": "A supportive hard-ass, who wants to see you do t"
+      },
+      "position": {
+        "start": 36,
+        "end": 185
+      },
+      "rects": [
+        {
+          "x": 0.1634927346209869,
+          "y": 0.12145696309345361,
+          "width": 0.679580953281678,
+          "height": 0.01991495763266432
+        },
+        {
+          "x": 0.1634927346209869,
+          "y": 0.1488497149762487,
+          "width": 0.1836570349290152,
+          "height": 0.01991496834631243
+        },
+        {
+          "x": 0.1634927346209869,
+          "y": 0.2035391066047412,
+          "width": 0.6778499704979232,
+          "height": 0.01991495763266432
+        },
+        {
+          "x": 0.1634927346209869,
+          "y": 0.23083570349584623,
+          "width": 0.3162834906854701,
+          "height": 0.019914979059960508
+        }
+      ],
+      "id": "a763b557-2eee-4338-94c4-578dfb0b7344",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T17:31:05.651Z"
+    },
+    {
+      "page": 23,
+      "quote": {
+        "exact": "If you’re struggling to stick with demanding forms of\npractice, then temporarily forget about efficiency and\njust build a habit with some less effective but more\nenjoyable form of practice.",
+        "prefix": "sistency► You’re Not Lazy, You Just Lack a Habit",
+        "suffix": " Although the ultimate goalis to train efficiently"
+      },
+      "position": {
+        "start": 75,
+        "end": 258
+      },
+      "rects": [
+        {
+          "x": 0.1634927346209869,
+          "y": 0.3505178248963069,
+          "width": 0.67927265343249,
+          "height": 0.019914946919016185
+        },
+        {
+          "x": 0.1634927346209869,
+          "y": 0.3778144432147081,
+          "width": 0.6794442549167534,
+          "height": 0.01991493620536816
+        },
+        {
+          "x": 0.1634927346209869,
+          "y": 0.40520720581115127,
+          "width": 0.6792210603965034,
+          "height": 0.01991493620536816
+        },
+        {
+          "x": 0.1634927346209869,
+          "y": 0.43259996840759446,
+          "width": 0.33771523121130975,
+          "height": 0.01991493620536816
+        }
+      ],
+      "id": "133812bd-6cae-4d02-a44f-85d3a51ce102",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T17:32:45.641Z"
+    },
+    {
+      "page": 24,
+      "quote": {
+        "exact": "Once you get to that point, you’ve built a habit, and you\nneed to do everything in your power to maintain it.",
+        "prefix": "ximum possible learning into your practice time.",
+        "suffix": " Ifyou want to take a day off, just do a quick 10"
+      },
+      "position": {
+        "start": 1197,
+        "end": 1305
+      },
+      "rects": [
+        {
+          "x": 0.16349947406544146,
+          "y": 0.8047211283121417,
+          "width": 0.6801089800890556,
+          "height": 0.020156230201981762
+        },
+        {
+          "x": 0.16349947406544146,
+          "y": 0.8321144768788146,
+          "width": 0.6542684418039515,
+          "height": 0.020156230201981762
+        }
+      ],
+      "id": "6d758e69-ef41-4177-9350-437b329916f3",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T17:34:57.355Z"
+    },
+    {
+      "page": 29,
+      "quote": {
+        "exact": "Unless you have a\nridiculous amount of intrinsic motivation, it's just a lot\nof suck at the beginning.",
+        "prefix": "ing, before you'vekicked off the virtuous cycle. ",
+        "suffix": "The way you overcome the suck is by setting area"
+      },
+      "position": {
+        "start": 302,
+        "end": 402
+      },
+      "rects": [
+        {
+          "x": 0.5876438321622972,
+          "y": 0.3398551017657909,
+          "width": 0.25760162014858123,
+          "height": 0.020156230201981762
+        },
+        {
+          "x": 0.16349947406544146,
+          "y": 0.36715056027107795,
+          "width": 0.67869354108542,
+          "height": 0.020156220133059566
+        },
+        {
+          "x": 0.16349947406544146,
+          "y": 0.39454390883775076,
+          "width": 0.3022546437012,
+          "height": 0.020156210064137425
+        }
+      ],
+      "id": "cb55abe0-0702-4aa4-a91b-daa89a71f83f",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T17:37:46.466Z"
+    },
+    {
+      "page": 35,
+      "quote": {
+        "exact": "If I've learned anything about habit formation and\nmaintenance, it's that you've absolutely got to stay\nconsistent, even (and especially) during those times\nwhen you need to dial back the total volume.",
+        "prefix": "uous cycles, notvicious ones.► Protect The Habit",
+        "suffix": " Obviouslyyou'll move slower when you throttle t"
+      },
+      "position": {
+        "start": 633,
+        "end": 831
+      },
+      "rects": [
+        {
+          "x": 0.1634994682300234,
+          "y": 0.7066457383447997,
+          "width": 0.6785152107096323,
+          "height": 0.02015622013305962
+        },
+        {
+          "x": 0.1634994682300234,
+          "y": 0.7339411867811645,
+          "width": 0.6793713832467918,
+          "height": 0.020156230201981873
+        },
+        {
+          "x": 0.1634994682300234,
+          "y": 0.7613345252789152,
+          "width": 0.6789093426256843,
+          "height": 0.020156230201981762
+        },
+        {
+          "x": 0.1634994682300234,
+          "y": 0.788727873845588,
+          "width": 0.549662955589761,
+          "height": 0.02015621006413748
+        }
+      ],
+      "id": "7b2504e9-cded-4d6e-ace4-78c422ef297b",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T18:05:05.646Z"
+    },
+    {
+      "page": 37,
+      "quote": {
+        "exact": "Hardcore skill development is also one of the greatest\nsocial mobility hacks.",
+        "prefix": "he universe”) still comesdown to skill-building.",
+        "suffix": " Even if your family is notwell-connected, you c"
+      },
+      "position": {
+        "start": 773,
+        "end": 849
+      },
+      "rects": [
+        {
+          "x": 0.163447676364217,
+          "y": 0.7878450965128688,
+          "width": 0.6791584659003931,
+          "height": 0.01982390637461684
+        },
+        {
+          "x": 0.163447676364217,
+          "y": 0.8151286110207694,
+          "width": 0.2904242618387376,
+          "height": 0.019823949033369703
+        }
+      ],
+      "id": "d65cf3f7-955f-48b6-9690-0a756184899b",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T18:08:40.379Z"
+    },
+    {
+      "page": 37,
+      "quote": {
+        "exact": "Hardcore skills are the biggest bottleneck to improving\nyour life and the lives of others. It doesn’t matter where\nyou fall on the spectrum from selfish to altruistic.\nHardcore skills are always the answer.",
+        "prefix": "2. Skills► Hardcore Skills Are Always The Answer",
+        "suffix": "So many people want to make a big impact on thew"
+      },
+      "position": {
+        "start": 69,
+        "end": 271
+      },
+      "rects": [
+        {
+          "x": 0.163447676364217,
+          "y": 0.35038344673167404,
+          "width": 0.6786529378576291,
+          "height": 0.019823938368681515
+        },
+        {
+          "x": 0.163447676364217,
+          "y": 0.37766698256895104,
+          "width": 0.6801532380231454,
+          "height": 0.019823927703993327
+        },
+        {
+          "x": 0.163447676364217,
+          "y": 0.40505417917563497,
+          "width": 0.6791999504492857,
+          "height": 0.019823949033369703
+        },
+        {
+          "x": 0.163447676364217,
+          "y": 0.43244139711169527,
+          "width": 0.465405874805466,
+          "height": 0.019823927703993327
+        }
+      ],
+      "id": "8e401530-b034-4825-8b5f-803130baa219",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-03T18:08:48.973Z"
+    }
+  ],
+  "exportRetired": true,
+  "notePath": "Book notes/Advice on Upskilling.md"
+}
