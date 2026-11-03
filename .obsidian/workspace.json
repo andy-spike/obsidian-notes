@@ -11,10 +11,14 @@
             "id": "9db7c730692cb28a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -162,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.45904541015625
+    "width": 435.45904541015625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,6 +185,7 @@
   },
   "active": "9db7c730692cb28a",
   "lastOpenFiles": [
+    "notes/Untitled.md",
     "notes/Vilert, Rupit, Obi.md",
     "assets/AI Engineering book.pdf",
     "excalidraw/Drawing 2026-10-25 16.35.03.excalidraw.md",
