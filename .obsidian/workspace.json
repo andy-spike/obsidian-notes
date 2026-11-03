@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a2220a0bb7bb20ca",
+        "id": "f84b7249ea1137af",
         "type": "tabs",
         "children": [
           {
-            "id": "b31663459caa7e5f",
+            "id": "9db7c730692cb28a",
             "type": "leaf",
             "state": {
-              "type": "reader-plugin-pdf",
-              "state": {
-                "file": "assets/AI Engineering book.pdf",
-                "zoom": 1.1435418764462328,
-                "page": 69,
-                "offset": 0.951
-              },
-              "icon": "book-open",
-              "title": "AI Engineering book"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -183,12 +178,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b31663459caa7e5f",
+  "active": "9db7c730692cb28a",
   "lastOpenFiles": [
-    "excalidraw/Drawing 2026-10-25 16.35.03.excalidraw.md",
-    "assets/AI Engineering book.pdf",
-    "excalidraw/Drawing 2026-10-25 13.46.15.excalidraw.md",
     "notes/Vilert, Rupit, Obi.md",
+    "assets/AI Engineering book.pdf",
+    "excalidraw/Drawing 2026-10-25 16.35.03.excalidraw.md",
+    "excalidraw/Drawing 2026-10-25 13.46.15.excalidraw.md",
     "Book notes/AI Engineering book notes/the ChatGPT moment.md",
     "Book notes/AI Engineering book notes/A language model encodes statistical information about one or more languages.md",
     "Book notes/AI Engineering book notes/ul and capable of more tasks, enabling more applications. More people and teams.md",
