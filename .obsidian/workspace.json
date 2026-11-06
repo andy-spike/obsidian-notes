@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f84b7249ea1137af",
+        "id": "afb8f2fe3d6d3529",
         "type": "tabs",
         "children": [
           {
-            "id": "9db7c730692cb28a",
+            "id": "aa944bd007b0afe1",
             "type": "leaf",
             "state": {
               "type": "reader-plugin-pdf",
               "state": {
-                "file": "assets/Advice on Upskilling.pdf",
-                "zoom": 1.7534100306306573,
-                "page": 37,
-                "offset": 0.935
+                "file": "assets/AI Engineering book.pdf",
+                "zoom": 1.1443852492988407,
+                "page": 71,
+                "offset": 0.979
               },
               "icon": "book-open",
-              "title": "Advice on Upskilling"
+              "title": "AI Engineering book"
             }
           }
         ]
@@ -182,8 +182,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9db7c730692cb28a",
+  "active": "aa944bd007b0afe1",
   "lastOpenFiles": [
+    "assets/Advice on Upskilling.pdf",
     "Book notes/Advice on Upskilling/Hardcore skills are the biggest bottleneck to improving your life and the lives….md",
     "Book notes/Advice on Upskilling/Hardcore skill development is also one of the greatest social mobility hacks.md",
     "Book notes/Advice on Upskilling/If I've learned anything about habit formation and maintenance, it's that….md",
@@ -194,7 +195,6 @@
     "Book notes/Advice on Upskilling/That’s the deal. That’s the kind of coach you’re picking with this book. A….md",
     "Book notes/Advice on Upskilling",
     "excalidraw/Drawing 2026-04-20 11.19.49.excalidraw.md",
-    "assets/Advice on Upskilling.pdf",
     "assets/Advice on Upskilling (1).pdf",
     "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
     "excalidraw/Drawing 2026-04-14 22.00.41.excalidraw.md",
@@ -214,7 +214,6 @@
     "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale.md",
     "notes/Ícaro.md",
     "notes/Déjame morir en paz.md",
-    "notes/Entrevista Bia Energy - Uno a uno.md",
     "Book notes",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",

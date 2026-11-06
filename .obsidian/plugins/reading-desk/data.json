@@ -22,15 +22,15 @@
   "pdfPageColors": {},
   "highlightModeColor": "yellow",
   "positions": {
-    "assets/AI Engineering book.pdf": {
-      "page": 70,
-      "offset": 0.026,
-      "zoom": 1.1435418764462328
-    },
     "assets/Advice on Upskilling.pdf": {
-      "page": 38,
-      "offset": 0.323,
+      "page": 37,
+      "offset": 0.935,
       "zoom": 1.7534100306306573
+    },
+    "assets/AI Engineering book.pdf": {
+      "page": 72,
+      "offset": 0.358,
+      "zoom": 1.1443852492988407
     }
   }
 }
