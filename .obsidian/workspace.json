@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "afb8f2fe3d6d3529",
+        "id": "b114f917cc2ba62c",
         "type": "tabs",
         "children": [
           {
-            "id": "aa944bd007b0afe1",
+            "id": "a18b8813466e105a",
             "type": "leaf",
             "state": {
               "type": "reader-plugin-pdf",
               "state": {
-                "file": "assets/AI Engineering book.pdf",
-                "zoom": 1.1443852492988407,
-                "page": 71,
-                "offset": 0.979
+                "file": "assets/Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive.pdf",
+                "zoom": 1.462127336388732,
+                "page": 25,
+                "offset": 0.121
               },
               "icon": "book-open",
-              "title": "AI Engineering book"
+              "title": "Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive"
             }
           }
         ]
@@ -182,8 +182,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "aa944bd007b0afe1",
+  "active": "a18b8813466e105a",
   "lastOpenFiles": [
+    "assets/AI Engineering book.pdf",
     "assets/Advice on Upskilling.pdf",
     "Book notes/Advice on Upskilling/Hardcore skills are the biggest bottleneck to improving your life and the lives….md",
     "Book notes/Advice on Upskilling/Hardcore skill development is also one of the greatest social mobility hacks.md",
@@ -201,7 +202,6 @@
     "todo/Mon 27 Apr - Sun 3 Mar, 2026.md",
     "notes/Untitled.md",
     "notes/Vilert, Rupit, Obi.md",
-    "assets/AI Engineering book.pdf",
     "excalidraw/Drawing 2026-10-25 16.35.03.excalidraw.md",
     "excalidraw/Drawing 2026-10-25 13.46.15.excalidraw.md",
     "Book notes/AI Engineering book notes/the ChatGPT moment.md",
