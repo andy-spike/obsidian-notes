@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b114f917cc2ba62c",
+        "id": "3bc34937f9d25ce7",
         "type": "tabs",
         "children": [
           {
-            "id": "a18b8813466e105a",
+            "id": "3414e3b2d6a80dd9",
             "type": "leaf",
             "state": {
               "type": "reader-plugin-pdf",
               "state": {
-                "file": "assets/Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive.pdf",
-                "zoom": 1.462127336388732,
-                "page": 25,
-                "offset": 0.121
+                "file": "assets/AI Engineering book.pdf",
+                "zoom": 1.110037050304376,
+                "page": 95,
+                "offset": 1.012
               },
               "icon": "book-open",
-              "title": "Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive"
+              "title": "AI Engineering book"
             }
           }
         ]
@@ -64,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -181,8 +182,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a18b8813466e105a",
+  "active": "3414e3b2d6a80dd9",
   "lastOpenFiles": [
+    "Book notes/AI Engineering book notes/Latency metrics including TTFT (time to first token), TPOT (time per output….md",
+    "Book notes/AI Engineering book notes/AIs that can plan and use tools are called agents.md",
+    "assets/Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive.pdf",
     "assets/AI Engineering book.pdf",
     "assets/Advice on Upskilling.pdf",
     "Book notes/Advice on Upskilling/Hardcore skills are the biggest bottleneck to improving your life and the lives….md",
@@ -212,12 +216,10 @@
     "Book notes/AI Engineering book notes.md",
     "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale.md",
     "notes/Ícaro.md",
-    "notes/Déjame morir en paz.md",
     "Book notes",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
     "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.27af3e1833ae",
-    "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.1ee9a89e8ce2",
     "assets/Pasted Image 20260414223252_700.png",
     "assets/Pasted Image 20260414221755_556.png",
     "assets/Pasted Image 20250616194523_052.svg",

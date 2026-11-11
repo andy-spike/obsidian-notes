@@ -27,15 +27,15 @@
       "offset": 0.935,
       "zoom": 1.7534100306306573
     },
-    "assets/AI Engineering book.pdf": {
-      "page": 72,
-      "offset": 0.003,
-      "zoom": 1.1443852492988407
-    },
     "assets/Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive.pdf": {
-      "page": 25,
-      "offset": 0.121,
+      "page": 24,
+      "offset": 0.835,
       "zoom": 1.462127336388732
+    },
+    "assets/AI Engineering book.pdf": {
+      "page": 95,
+      "offset": 0.955,
+      "zoom": 1.110037050304376
     }
   }
 }

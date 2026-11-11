@@ -63,6 +63,60 @@
       "color": "blue",
       "comment": "",
       "createdAt": "2026-10-20T05:39:18.046Z"
+    },
+    {
+      "page": 85,
+      "quote": {
+        "exact": "AIs that can plan and use tools are called agents",
+        "prefix": "ke calls, and add appointments to yourcalendar. ",
+        "suffix": ". Thelevel of interest around agents borders on "
+      },
+      "position": {
+        "start": 859,
+        "end": 908
+      },
+      "rects": [
+        {
+          "x": 0.2370632919231095,
+          "y": 0.7034298403383493,
+          "width": 0.5579887896378913,
+          "height": 0.021094870055762938
+        }
+      ],
+      "id": "43e80c69-0424-4d9c-820f-98eba8723f59",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-11T20:11:48.000Z"
+    },
+    {
+      "page": 95,
+      "quote": {
+        "exact": "Latency metrics including TTFT (time to first token), TPOT\n(time per output token), and total latency.",
+        "prefix": "o measure the quality of the chatbot’sresponses.",
+        "suffix": " What isconsidered acceptable latency depends on"
+      },
+      "position": {
+        "start": 294,
+        "end": 394
+      },
+      "rects": [
+        {
+          "x": 0.17464316691550355,
+          "y": 0.3200020646711069,
+          "width": 0.6745154452612626,
+          "height": 0.021094844021198766
+        },
+        {
+          "x": 0.17464316691550355,
+          "y": 0.3530900690998987,
+          "width": 0.4822679706856504,
+          "height": 0.021094844021198766
+        }
+      ],
+      "id": "ca7ea7f7-2b3b-4cf2-bd61-67b2466d6437",
+      "color": "yellow",
+      "comment": "",
+      "createdAt": "2026-11-11T20:21:58.693Z"
     }
   ],
   "exportRetired": true,
