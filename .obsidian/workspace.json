@@ -4,40 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3bc34937f9d25ce7",
+        "id": "330166d2d1d3eeff",
         "type": "tabs",
         "children": [
           {
-            "id": "3414e3b2d6a80dd9",
+            "id": "3a2055bb001a0cb3",
             "type": "leaf",
             "state": {
-              "type": "reader-plugin-pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "assets/AI Engineering book.pdf",
-                "zoom": 1.110037050304376,
-                "page": 95,
-                "offset": 0.955
+                "file": "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md"
               },
-              "icon": "book-open",
-              "title": "AI Engineering book"
-            }
-          },
-          {
-            "id": "58f5b78b7ea9bb90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Show HN - Armin post.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Show HN - Armin post"
+              "icon": "excalidraw-icon",
+              "title": "Colombiatech Bridge - Cifras para la junta.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,14 +180,41 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "58f5b78b7ea9bb90",
+  "active": "3a2055bb001a0cb3",
   "lastOpenFiles": [
-    "assets/AI Engineering book.pdf",
+    "excalidraw/_bridge-final.png",
+    "excalidraw/_bridge-apply9b.json",
+    "excalidraw/_bridge-v9.png",
+    "excalidraw/_bridge-apply9.json",
+    "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md",
+    "excalidraw/_bridge-req9-images.json",
+    "excalidraw/_bridge-req9.json",
+    "excalidraw/_bridge-v8.png",
+    "excalidraw/_bridge-apply8.json",
+    "excalidraw/_bridge-req8-images.json",
+    "excalidraw/_bridge-req8.json",
+    "excalidraw/_bridge-v7.png",
+    "excalidraw/_bridge-apply7.json",
+    "excalidraw/_bridge-req7-images.json",
+    "excalidraw/_bridge-req7.json",
+    "excalidraw/_bridge-v6.png",
+    "excalidraw/Colombiatech Bridge - Junta en 4 pasos (v5).excalidraw.md",
+    "excalidraw/Bridge assets/excel-1-evidencia.png",
+    "notes/Untitled.md",
+    "excalidraw/_bridge-v5.png",
+    "excalidraw/Colombiatech Bridge - Junta en 4 pasos (v4).excalidraw.md",
+    "excalidraw/Bridge assets/excel-4-presupuesto.png",
+    "excalidraw/Bridge assets/excel-3-pyl.png",
+    "excalidraw/Bridge assets/excel-3-costos.png",
+    "excalidraw/Colombiatech Bridge - Junta en 4 pasos (2 analistas).excalidraw.md",
+    "excalidraw/Colombiatech Bridge - Junta en 4 pasos.excalidraw.md",
+    "excalidraw/Colombiatech Bridge - Cifras para la reunión.excalidraw.md",
+    "excalidraw/Colombiatech Bridge - Cifras en 4 pasos.excalidraw.md",
     "notes/Show HN - Armin post.md",
+    "excalidraw/Colombiatech Bridge - Jerarquía de datos.excalidraw.md",
+    "excalidraw/Bridge CLI - importar Mermaid.md",
     "Book notes/AI Engineering book notes/Latency metrics including TTFT (time to first token), TPOT (time per output….md",
     "Book notes/AI Engineering book notes/AIs that can plan and use tools are called agents.md",
-    "assets/Designing Data-Intensive Applications_ The Big Ideas Behind -- Martin Kleppmann, Chris Riccomini -- 2, 2026 -- O'Reilly Media, Incorporated -- isbn13 9781098119065 -- fc13f2db7af76aa22cd86d8f5a6b045f -- Anna’s Archive.pdf",
-    "assets/Advice on Upskilling.pdf",
     "Book notes/Advice on Upskilling/Hardcore skills are the biggest bottleneck to improving your life and the lives….md",
     "Book notes/Advice on Upskilling/Hardcore skill development is also one of the greatest social mobility hacks.md",
     "Book notes/Advice on Upskilling/If I've learned anything about habit formation and maintenance, it's that….md",
@@ -214,37 +223,10 @@
     "Book notes/Advice on Upskilling/If you’re struggling to stick with demanding forms of practice, then….md",
     "Book notes/Advice on Upskilling.md",
     "Book notes/Advice on Upskilling/That’s the deal. That’s the kind of coach you’re picking with this book. A….md",
-    "Book notes/Advice on Upskilling",
     "excalidraw/Drawing 2026-04-20 11.19.49.excalidraw.md",
-    "assets/Advice on Upskilling (1).pdf",
     "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
     "excalidraw/Drawing 2026-04-14 22.00.41.excalidraw.md",
     "todo/Mon 27 Apr - Sun 3 Mar, 2026.md",
-    "notes/Vilert, Rupit, Obi.md",
-    "excalidraw/Drawing 2026-10-25 16.35.03.excalidraw.md",
-    "excalidraw/Drawing 2026-10-25 13.46.15.excalidraw.md",
-    "Book notes/AI Engineering book notes/the ChatGPT moment.md",
-    "Book notes/AI Engineering book notes/A language model encodes statistical information about one or more languages.md",
-    "Book notes/AI Engineering book notes/ul and capable of more tasks, enabling more applications. More people and teams.md",
-    "Book notes/AI Engineering book notes/Second, training large language models (LLMs) requires data, compute resources….md",
-    "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale. The AI….md",
-    "Book notes/AI Engineering book notes",
-    "Book notes/AI Engineering book notes.md",
-    "Book notes/AI Engineering book notes/If I could use only one word to describe AI post-2020, it’d be scale.md",
-    "Book notes",
-    "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a7ecb5574a36",
-    "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.a8e05b7eb9d2",
-    "notes/Entrevista Bia Energy - Uno a uno.md.tmp.57388.27af3e1833ae",
-    "assets/Pasted Image 20260414223252_700.png",
-    "assets/Pasted Image 20260414221755_556.png",
-    "assets/Pasted Image 20250616194523_052.svg",
-    "assets/Pasted Image 20260221135005_037.png",
-    "assets/Pasted Image 20260221133857_838.png",
-    "assets/Pasted Image 20260115202850_629.png",
-    "assets/Convex notes-1768419859063.webp",
-    "assets/Convex notes-1768414871288.webp",
-    "assets/React learning docs notes-1767121706597.webp",
-    "assets/Pasted Image 20251202165459_161.png",
     "Untitled.canvas"
   ]
 }
