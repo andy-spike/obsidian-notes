@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "330166d2d1d3eeff",
+        "id": "66778c9f425b4e42",
         "type": "tabs",
         "children": [
           {
-            "id": "3a2055bb001a0cb3",
+            "id": "07d274f31814f04b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "reader-plugin-pdf",
               "state": {
-                "file": "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md"
+                "file": "assets/AI Engineering book.pdf",
+                "zoom": 1.110037050304376,
+                "page": 114,
+                "offset": 0.381
               },
-              "icon": "excalidraw-icon",
-              "title": "Colombiatech Bridge - Cifras para la junta.excalidraw"
+              "icon": "book-open",
+              "title": "AI Engineering book"
             }
           }
         ]
@@ -61,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d742e890d3afa5",
@@ -162,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.82818603515625,
-    "collapsed": true
+    "width": 367.82818603515625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,13 +182,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3a2055bb001a0cb3",
+  "active": "07d274f31814f04b",
   "lastOpenFiles": [
+    "AGENTS.md",
+    "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md",
     "excalidraw/_bridge-final.png",
     "excalidraw/_bridge-apply9b.json",
     "excalidraw/_bridge-v9.png",
     "excalidraw/_bridge-apply9.json",
-    "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md",
     "excalidraw/_bridge-req9-images.json",
     "excalidraw/_bridge-req9.json",
     "excalidraw/_bridge-v8.png",
