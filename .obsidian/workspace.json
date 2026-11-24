@@ -47,9 +47,23 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-11-23 16.46.45.excalidraw"
             }
+          },
+          {
+            "id": "3673d2a9c5114530",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 2"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,10 +224,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bb840361e61a3d0d",
+  "active": "3673d2a9c5114530",
   "lastOpenFiles": [
-    "notes/Untitled 1.md",
     "excalidraw/Drawing 2026-11-23 16.46.45.excalidraw.md",
+    "notes/Untitled 2.md",
+    "notes/Untitled 1.md",
     "assets/AI Engineering book.pdf",
     "AGENTS.md",
     "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md",
@@ -257,7 +272,6 @@
     "Book notes/Advice on Upskilling.md",
     "Book notes/Advice on Upskilling/That’s the deal. That’s the kind of coach you’re picking with this book. A….md",
     "excalidraw/Drawing 2026-04-20 11.19.49.excalidraw.md",
-    "excalidraw/Drawing 2026-10-07 20.27.34.excalidraw.md",
     "Untitled.canvas"
   ]
 }
