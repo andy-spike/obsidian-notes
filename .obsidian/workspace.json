@@ -35,9 +35,21 @@
               "icon": "lucide-file",
               "title": "Untitled 1"
             }
+          },
+          {
+            "id": "bb840361e61a3d0d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "excalidraw/Drawing 2026-11-23 16.46.45.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-11-23 16.46.45.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,10 +210,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "19cc358cb7b7a763",
+  "active": "bb840361e61a3d0d",
   "lastOpenFiles": [
-    "assets/AI Engineering book.pdf",
     "notes/Untitled 1.md",
+    "excalidraw/Drawing 2026-11-23 16.46.45.excalidraw.md",
+    "assets/AI Engineering book.pdf",
     "AGENTS.md",
     "excalidraw/Colombiatech Bridge - Cifras para la junta.excalidraw.md",
     "excalidraw/_bridge-final.png",
@@ -217,7 +230,6 @@
     "excalidraw/_bridge-v7.png",
     "excalidraw/_bridge-apply7.json",
     "excalidraw/_bridge-req7-images.json",
-    "excalidraw/_bridge-req7.json",
     "excalidraw/_bridge-v6.png",
     "excalidraw/Colombiatech Bridge - Junta en 4 pasos (v5).excalidraw.md",
     "excalidraw/Bridge assets/excel-1-evidencia.png",
